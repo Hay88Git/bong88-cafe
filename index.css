@@ -1,0 +1,56 @@
+@media all and (max-width: 975px){
+    header section .logo i{
+      display: flex;
+    }
+    header nav{
+      position: fixed;
+      top: 0;
+      right: -100%;
+      max-width: 250px;
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(168, 151, 0) !important;
+      z-index: 100;
+      transition: all 0.3s ease-in-out;
+    }
+    header nav ul{
+      width: 100% !important;
+      display: inline-block !important;
+    }
+    header nav ul li{
+      color: #fafafa !important;
+      margin: 30px 0px !important;
+      border-bottom: 1px solid #DDDD;
+      width: 100%;
+      height: 30px;
+      padding: 5px 4px !important;
+    }
+    header nav ul li:hover{
+        box-shadow: 1px 6px 5px black;
+        cursor: pointer;
+    }
+  }
+.box{
+  height: 30px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #fff;
+  align-items: center;
+  box-shadow: 0 10px 25px #000;
+}
+.box:hover{
+  width: 400px;
+}
+.box input{
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.4s;
+  background-color: transparent;
+}
+.box a .fa-solid{
+  color: #1daf;
+  font-size: 18px;
+}

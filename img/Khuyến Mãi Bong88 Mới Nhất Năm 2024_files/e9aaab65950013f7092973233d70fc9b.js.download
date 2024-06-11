@@ -1,0 +1,2 @@
+jQuery(document).ready(function($){var images=['/wp-content/uploads/2024/06/casino.6dfe5284.png','/wp-content/uploads/2024/06/fishing.0d527f1e.png','/wp-content/uploads/2024/06/jack-card.026d863c.png','/wp-content/uploads/2024/06/sport.e7bf666e.png','/wp-content/uploads/2024/06/lottery.d5f192a0.png','/wp-content/uploads/2024/06/tai-xuong-1.png'];images.forEach(function(src,index){var imgTag='<img src="'+src+'" alt="Image description" />';$('.c-tab .tab:nth-child('+(index+1)+') span').before(imgTag)})})
+;
